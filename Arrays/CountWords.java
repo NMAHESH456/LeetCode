@@ -6,6 +6,12 @@ public class CountWords {
 //        int s1 =  words.split("\\s+").length;
 String[] s1 = words.split("\\s+");
         System.out.println("Count of words is : " + s1.length);
+        System.out.println("the  words are : " + Arrays.toString(s1));
     }
 
 }
+
+// Output :
+// Count of words is : 5
+// the  words are : [Im, working, in, manhattan, associates]
+
